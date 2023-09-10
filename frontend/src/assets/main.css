@@ -1,0 +1,39 @@
+#app {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.docs-table tbody i {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+
+.ProseMirror:focus {
+    outline: none;
+}
+
+
+.truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.h1-input {
+    font-size: 3rem;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.h1-input::placeholder {
+    color: #ACB5BD;
+}
